@@ -30,7 +30,6 @@ def rest_graph():
     tf.keras.backend.clear_session()
 
 
-
 def read_pic(X):
     img = cv2.imread(X)
     rgb_img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
